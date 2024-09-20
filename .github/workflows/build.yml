@@ -14,7 +14,7 @@ jobs:
       - name: Build and deploy
         # v0.17.2 didn't work for me for some reason, so I used v0.17.1
         # master also worked: shalzz/zola-deploy-action@master
-        uses: shalzz/zola-deploy-action@v0.17.1
+        uses: shalzz/zola-deploy-action@v0.17.2
         env:
           PAGES_BRANCH: gh-pages
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
